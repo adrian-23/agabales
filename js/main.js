@@ -25,6 +25,7 @@ document.getElementById('description-microshell').addEventListener("click" , () 
 function display(elem){
 	elem.classList.add('show');
 	hide(elem.id, content);
+	window.scrollTo(0,0);
 }
 
 function hide(elem,content){
