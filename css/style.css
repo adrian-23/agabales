@@ -8398,3 +8398,7 @@ a[data-toggle="collapse"] {
 #About-btn:after {
     background: #8bcdea;
 }
+
+.text-project-item{
+  font-size:11px;
+}
