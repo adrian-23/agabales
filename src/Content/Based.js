@@ -1,6 +1,7 @@
 import React from 'react'
 import {  Motivation} from '../Components'
 import based26_pic from '../images/B261.jpg'
+
 export default function Based(){
     return(
         <div id='Based26' className='show'>
@@ -13,7 +14,7 @@ export default function Based(){
             <h3 className="quatrocento">(1)A .... Z (26) </h3>
             <h4 className="quatrocento">(27)AA ... AZ (52)</h4>
             <h5 className="quatrocento">(703)AAA ... ZZZ (18278)</h5>
-            <p class="quatrocento my-5">
+            <p className="quatrocento my-5">
             This was a little tricky at first until you see the pattern as the size n increases. If you are curious about the solution I came up with, it's in the  github tab of this section.
             </p>
             <p className="mb-0"> Reference Used: </p>

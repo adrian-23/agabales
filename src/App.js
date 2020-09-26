@@ -7,14 +7,13 @@ import Lightbulb from './Content/Lightbulb'
 import Microshell from './Content/Microshell'
 import Based from './Content/Based'
 import resume from './Resume/Resume.pdf'
-
+import ScrollToTop from '../src/Utility/ScrolltoTop'
 import { SideBarDropDown ,SideTabContainer, SideTab, TagCloud, TagCloudLink, ListLink, ListDescription, Credentials} from './Components';
-console.log('resume is '+ resume);
+
 function App() {
   
 
- 
-
+ScrollToTop();
   
   return (
 

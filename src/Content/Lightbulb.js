@@ -1,5 +1,6 @@
 import React from 'react'
 import {SubHeadingItem, SubHeadingList, Motivation} from '../Components'
+
 function importAll(r) {
   return r.keys().map(r);
 }

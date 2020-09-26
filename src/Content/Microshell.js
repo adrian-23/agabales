@@ -1,11 +1,12 @@
 import React from 'react'
 import {SubHeadingItem, SubHeadingList, Image, Motivation, Paragraph, ParagraphItem} from '../Components'
+
 function importAll(r) {
   return r.keys().map(r);
 }
 
 const images = importAll(require.context('../images', false, /\.(png|jpe?g|svg)$/));
-console.log(images);
+
 
 export default function Microshell(){
     return(
