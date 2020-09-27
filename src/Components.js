@@ -132,20 +132,46 @@ export function Credentials(props){
 
 export function SubHeadingItem(props){
     return(
-        <li><h6>{props.content}</h6></li>
+        <li><h6>{props.content}{props.children}</h6></li>
     )
 }
 export function SubHeadingList(props){
-    return(
-        <>
-        <h3>{props.title}</h3>
-
-        <ul className='quatrocento content-info mb-5'>
-            {props.children}
-        </ul>
-
-        </>
-    )
+    
+    if(props.highlight !==undefined){
+        var txt_color;
+        
+        if(props.highlight==='red'){
+            txt_color = 'text-danger';
+        }
+        else if(props.highlight==='blue'){
+            txt_color = 'text-info';
+        }
+        else{
+            txt_color='text-success'
+        }
+        console.log(props.highlight);
+        return(
+            <>
+            <h3 className={txt_color}>{props.title}</h3>
+            <ul className='quatrocento content-info mb-5'>
+                {props.children}
+            </ul>
+            </>
+        )
+    }
+    else{
+        return(
+            <>
+            <h3>{props.title}</h3>
+    
+            <ul className='quatrocento content-info mb-5'>
+                {props.children}
+            </ul>
+    
+            </>
+        )
+    }
+    
 }
 
 export function Image(props){
@@ -178,8 +204,28 @@ export function Paragraph(props){
 }
 
 export function ParagraphItem(props){
-    return(
+    if(props.highlight !== undefined){
+        var attr= 'my-2 content-info quatrocento ';
+        var txt_color;
+        
+        if(props.highlight==='red'){
+            txt_color = 'text-danger';
+        }
+        else if(props.highlight==='blue'){
+            txt_color = 'text-info';
+        }
+        else{
+            txt_color='text-success'
+        }
+        return(
+            <p className={attr + txt_color}>{props.content}</p>
+        )
+    }
+    else{
+        return(
 
-        <p className='my-2 content-info quatrocento'>{props.content}</p>
-    )
+            <p className='my-2 content-info quatrocento'>{props.content}</p>
+        )
+    }
+    
 }

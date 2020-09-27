@@ -7,6 +7,7 @@ import Lightbulb from './Content/Lightbulb'
 import Microshell from './Content/Microshell'
 import Based from './Content/Based'
 import resume from './Resume/Resume.pdf'
+import OS from './Content/OS'
 import ScrollToTop from '../src/Utility/ScrolltoTop'
 import { SideBarDropDown ,SideTabContainer, SideTab, TagCloud, TagCloudLink, ListLink, ListDescription, Credentials} from './Components';
 
@@ -37,7 +38,9 @@ ScrollToTop();
              
             </Route>
             <Route path='/based26' component={Based}>
-              
+            </Route>
+
+            <Route path='/OS' component={OS}>
             </Route>
 
             <Route component={About}></Route>
@@ -89,6 +92,12 @@ ScrollToTop();
                 </SideBarDropDown>
             </SideTab>
 
+            <SideTab title='Class Notes'>
+              <SideBarDropDown id='description-OS' title='Operating Systems' logo='mr-2 fa fa-cogs	project-item-size'>
+                <ListDescription href='/OS' id='description-OS' content='Notes'></ListDescription>
+              </SideBarDropDown>
+            </SideTab>
+
             <Credentials>
               <TagCloud>
                 <TagCloudLink href='mailto:adriangabales1@gmail.com' button_desc='fa fa-envelope mail' content=''></TagCloudLink>
@@ -97,6 +106,7 @@ ScrollToTop();
                 <TagCloudLink href={resume} button_desc='' content='CV'></TagCloudLink>
               </TagCloud>
             </Credentials>
+            
 
               
         </SideTabContainer>

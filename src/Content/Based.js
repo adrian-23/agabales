@@ -1,5 +1,5 @@
 import React from 'react'
-import {  Motivation} from '../Components'
+import { Motivation} from '../Components'
 import based26_pic from '../images/B261.jpg'
 
 export default function Based(){
