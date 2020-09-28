@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/agabales/static/css/main.b9bcad3f.chunk.css",
-    "main.js": "/agabales/static/js/main.71ad618c.chunk.js",
-    "main.js.map": "/agabales/static/js/main.71ad618c.chunk.js.map",
+    "main.js": "/agabales/static/js/main.024f7e8d.chunk.js",
+    "main.js.map": "/agabales/static/js/main.024f7e8d.chunk.js.map",
     "runtime-main.js": "/agabales/static/js/runtime-main.60603778.js",
     "runtime-main.js.map": "/agabales/static/js/runtime-main.60603778.js.map",
-    "static/js/2.5ed9cf7c.chunk.js": "/agabales/static/js/2.5ed9cf7c.chunk.js",
-    "static/js/2.5ed9cf7c.chunk.js.map": "/agabales/static/js/2.5ed9cf7c.chunk.js.map",
+    "static/js/2.d849f231.chunk.js": "/agabales/static/js/2.d849f231.chunk.js",
+    "static/js/2.d849f231.chunk.js.map": "/agabales/static/js/2.d849f231.chunk.js.map",
     "index.html": "/agabales/index.html",
-    "precache-manifest.61ffc1ea7f6fee12bfd8182080d07a41.js": "/agabales/precache-manifest.61ffc1ea7f6fee12bfd8182080d07a41.js",
+    "precache-manifest.926f0873f1b7eea2a5fc1a5d334b385c.js": "/agabales/precache-manifest.926f0873f1b7eea2a5fc1a5d334b385c.js",
     "service-worker.js": "/agabales/service-worker.js",
     "static/css/main.b9bcad3f.chunk.css.map": "/agabales/static/css/main.b9bcad3f.chunk.css.map",
-    "static/js/2.5ed9cf7c.chunk.js.LICENSE.txt": "/agabales/static/js/2.5ed9cf7c.chunk.js.LICENSE.txt",
+    "static/js/2.d849f231.chunk.js.LICENSE.txt": "/agabales/static/js/2.d849f231.chunk.js.LICENSE.txt",
     "static/media/B261.jpg": "/agabales/static/media/B261.dca34bcf.jpg",
     "static/media/LB1.png": "/agabales/static/media/LB1.2a5132d6.png",
     "static/media/LB10.png": "/agabales/static/media/LB10.64e633de.png",
@@ -27,7 +27,10 @@
     "static/media/LB9.png": "/agabales/static/media/LB9.a27e5cd2.png",
     "static/media/MSHELL.png": "/agabales/static/media/MSHELL.2fc352d3.png",
     "static/media/OS1.png": "/agabales/static/media/OS1.44b11414.png",
-    "static/media/OS2.png": "/agabales/static/media/OS2.29b9bb4d.png",
+    "static/media/OS2.png": "/agabales/static/media/OS2.6cbe8300.png",
+    "static/media/OS3.png": "/agabales/static/media/OS3.a7446e24.png",
+    "static/media/OS4.png": "/agabales/static/media/OS4.ce30fc08.png",
+    "static/media/OS5.png": "/agabales/static/media/OS5.96ac77a4.png",
     "static/media/Resume.pdf": "/agabales/static/media/Resume.c7cff9d3.pdf",
     "static/media/Right arrow.png": "/agabales/static/media/Right arrow.834343b5.png",
     "static/media/YTS1.png": "/agabales/static/media/YTS1.5c38dc8c.png",
@@ -42,8 +45,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.60603778.js",
-    "static/js/2.5ed9cf7c.chunk.js",
+    "static/js/2.d849f231.chunk.js",
     "static/css/main.b9bcad3f.chunk.css",
-    "static/js/main.71ad618c.chunk.js"
+    "static/js/main.024f7e8d.chunk.js"
   ]
 }
