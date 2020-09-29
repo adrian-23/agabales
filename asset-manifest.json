@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/agabales/static/css/main.b9bcad3f.chunk.css",
-    "main.js": "/agabales/static/js/main.024f7e8d.chunk.js",
-    "main.js.map": "/agabales/static/js/main.024f7e8d.chunk.js.map",
+    "main.js": "/agabales/static/js/main.67530ff1.chunk.js",
+    "main.js.map": "/agabales/static/js/main.67530ff1.chunk.js.map",
     "runtime-main.js": "/agabales/static/js/runtime-main.60603778.js",
     "runtime-main.js.map": "/agabales/static/js/runtime-main.60603778.js.map",
     "static/js/2.d849f231.chunk.js": "/agabales/static/js/2.d849f231.chunk.js",
     "static/js/2.d849f231.chunk.js.map": "/agabales/static/js/2.d849f231.chunk.js.map",
     "index.html": "/agabales/index.html",
-    "precache-manifest.926f0873f1b7eea2a5fc1a5d334b385c.js": "/agabales/precache-manifest.926f0873f1b7eea2a5fc1a5d334b385c.js",
+    "precache-manifest.9b35d4031975db7175f0695ef63ee503.js": "/agabales/precache-manifest.9b35d4031975db7175f0695ef63ee503.js",
     "service-worker.js": "/agabales/service-worker.js",
     "static/css/main.b9bcad3f.chunk.css.map": "/agabales/static/css/main.b9bcad3f.chunk.css.map",
     "static/js/2.d849f231.chunk.js.LICENSE.txt": "/agabales/static/js/2.d849f231.chunk.js.LICENSE.txt",
@@ -47,6 +47,6 @@
     "static/js/runtime-main.60603778.js",
     "static/js/2.d849f231.chunk.js",
     "static/css/main.b9bcad3f.chunk.css",
-    "static/js/main.024f7e8d.chunk.js"
+    "static/js/main.67530ff1.chunk.js"
   ]
 }
