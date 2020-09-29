@@ -35,7 +35,7 @@ export default function Converter(){
             <SubHeadingList title='Getting Started/Game plan:'>
                 <SubHeadingItem content='I had to research about the Youtube API'></SubHeadingItem>
                 <SubHeadingItem content='then I had to research about Spotify API'></SubHeadingItem>
-                <SubHeadingItem content='Last I had to figure out how I can processing data Between the two APIs'></SubHeadingItem>
+                <SubHeadingItem content='Last I had to figure out how I can process data between the two APIs'></SubHeadingItem>
             </SubHeadingList>
             
             <SubHeadingList title='The process:'>
