@@ -2,12 +2,12 @@ import React from 'react';
 import './App.css';
 import {Switch, Route, Link} from 'react-router-dom';
 import About from './Content/About'
+import Deadwood from './Content/Deadwood'
 import Converter from './Content/Converter'
 import Lightbulb from './Content/Lightbulb'
 import Microshell from './Content/Microshell'
 import Based from './Content/Based'
 import resume from './Resume/Resume.pdf'
-import Chapter_1 from './Content/Chapter_1'
 import ScrollToTop from '../src/Utility/ScrolltoTop'
 import { SideBarDropDown ,SideTabContainer, SideTab, TagCloud, TagCloudLink, ListLink, ListDescription, Credentials} from './Components';
 
@@ -40,8 +40,10 @@ ScrollToTop();
             <Route path='/based26' component={Based}>
             </Route>
 
-            <Route path='/OS/Chapter-1' component={Chapter_1}>
+            <Route path='/deadwood' component={Deadwood}>
             </Route>
+
+            
 
             <Route component={About}></Route>
           </Switch>
@@ -71,13 +73,13 @@ ScrollToTop();
 
               <SideBarDropDown id='description-Microshell' title='Microshell' logo='mr-2 fa fa-linux project-item-size'>
                   <ListDescription href='/microshell' id='description-Microshell' content='Description'></ListDescription>
-                  <ListLink  content='Github'><span className="text-danger">(Private)</span></ListLink>
+                  <ListDescription href='/microshell' id='private-github-microshell' content='Github '><span className="text-danger">(Private)</span></ListDescription>
               </SideBarDropDown>
 
 
               <SideBarDropDown id='description-deadwood' title='Deadwood' logo='mr-2 fa fa-gamepad project-item-size'>
-                  <ListDescription href='#in_progress' id='description-based26' content='Description'> <span className="text-success">(In Progress...)</span></ListDescription>
-                  <ListLink content='Github'><span className="text-danger">(Private)</span></ListLink>
+                  <ListDescription href='/deadwood' id='description-Deadwood' content='Description'></ListDescription>
+                  <ListDescription href='/deadwood' id='private-github-deadwood' content='Github '><span className="text-danger">(Private)</span></ListDescription>
               </SideBarDropDown>
 
 
@@ -92,11 +94,7 @@ ScrollToTop();
                 </SideBarDropDown>
             </SideTab>
 
-            <SideTab title='Class Notes'>
-              <SideBarDropDown id='description-OS' title='Operating Systems' logo='mr-2 fa fa-cogs	project-item-size'>
-                <ListDescription href='/OS/Chapter-1' id='description-OS' content='Chapter 1 Notes'></ListDescription>
-              </SideBarDropDown>
-            </SideTab>
+            
 
             <Credentials>
               <TagCloud>
