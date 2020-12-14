@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f083ca6fecaafd9b968171423e52611d",
+    "revision": "c546b01614c3c06c19f09870543e9a2c",
     "url": "/agabales/index.html"
   },
   {
-    "revision": "294f7b22699693f73267",
+    "revision": "54cc222334e1180427fd",
     "url": "/agabales/static/css/main.b9bcad3f.chunk.css"
   },
   {
-    "revision": "8b613221286c5d4c7ce9",
-    "url": "/agabales/static/js/2.d849f231.chunk.js"
+    "revision": "6fca35aef13275a01d6e",
+    "url": "/agabales/static/js/2.76d96d85.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/agabales/static/js/2.d849f231.chunk.js.LICENSE.txt"
+    "url": "/agabales/static/js/2.76d96d85.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "294f7b22699693f73267",
-    "url": "/agabales/static/js/main.85a5978f.chunk.js"
+    "revision": "54cc222334e1180427fd",
+    "url": "/agabales/static/js/main.a40b6c07.chunk.js"
   },
   {
     "revision": "605de06c2c570b2ad4bc",
@@ -26,6 +26,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dca34bcf8d1e9ff64b2dbc08c6c8a42b",
     "url": "/agabales/static/media/B261.dca34bcf.jpg"
+  },
+  {
+    "revision": "a287783d451fa08d72819c2eb09dd6e3",
+    "url": "/agabales/static/media/Deadwood Class Diagram.a287783d.png"
+  },
+  {
+    "revision": "ac72d1cad001c3b5cd6809e97566ed9f",
+    "url": "/agabales/static/media/Deadwood-Free-Edition-Banner.ac72d1ca.jpg"
   },
   {
     "revision": "2a5132d6553488a4bedcdc3b839c92d3",
@@ -80,26 +88,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agabales/static/media/MSHELL.2fc352d3.png"
   },
   {
-    "revision": "44b11414adb8bc87b96dbe991470d98c",
-    "url": "/agabales/static/media/OS1.44b11414.png"
-  },
-  {
-    "revision": "6cbe830025cdaa2a739fde8f733863de",
-    "url": "/agabales/static/media/OS2.6cbe8300.png"
-  },
-  {
-    "revision": "a7446e248364232a19bea16a1926f2d0",
-    "url": "/agabales/static/media/OS3.a7446e24.png"
-  },
-  {
-    "revision": "ce30fc083f942605a99c6b86300ec7d8",
-    "url": "/agabales/static/media/OS4.ce30fc08.png"
-  },
-  {
-    "revision": "96ac77a40fabb723b156678bfe990bd3",
-    "url": "/agabales/static/media/OS5.96ac77a4.png"
-  },
-  {
     "revision": "f68f702ee628c08acc83b07cf8d8d7c4",
     "url": "/agabales/static/media/Resume.f68f702e.pdf"
   },
@@ -124,6 +112,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agabales/static/media/YTS5.927bfbaf.png"
   },
   {
+    "revision": "6c0af5aafddf93846d387d616e5b7f0f",
+    "url": "/agabales/static/media/board.6c0af5aa.jpg"
+  },
+  {
+    "revision": "14612af83d6b91d4955305a91827d692",
+    "url": "/agabales/static/media/gui0.14612af8.png"
+  },
+  {
+    "revision": "e26afe24909c55823b1f70d5bf511095",
+    "url": "/agabales/static/media/gui1.e26afe24.png"
+  },
+  {
+    "revision": "a443d8002c06e631d63e8f9eb11ceda9",
+    "url": "/agabales/static/media/gui2.a443d800.png"
+  },
+  {
+    "revision": "e97984764d8838ef5c81361a1ec58054",
+    "url": "/agabales/static/media/gui3.e9798476.png"
+  },
+  {
     "revision": "0271ecf039bd0049a2a68a7bacf2d70b",
     "url": "/agabales/static/media/mshell2.0271ecf0.png"
   },
@@ -138,6 +146,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ef4d40230bb724181e35117501cfe309",
     "url": "/agabales/static/media/mshell5.ef4d4023.jpg"
+  },
+  {
+    "revision": "9b978037a06d9c012b0a3925bb2741ca",
+    "url": "/agabales/static/media/terminaldeadwood.9b978037.png"
+  },
+  {
+    "revision": "383f92f1aeb234a978f3e79c24abdff1",
+    "url": "/agabales/static/media/terminaldeadwood2.383f92f1.png"
   },
   {
     "revision": "7dbc0f70cc9d463c9466072df7d8f8fa",
