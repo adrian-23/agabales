@@ -229,3 +229,16 @@ export function ParagraphItem(props){
     }
     
 }
+
+export function Content(props){
+    return(
+        <ul className='content-info'>
+            {props.children}
+        </ul>
+    )
+}
+export function Bullet(props){
+    return(
+    <li> {props.children}</li>
+    )
+}
