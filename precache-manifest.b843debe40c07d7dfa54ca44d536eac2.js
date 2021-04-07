@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3dd8d96c2cf9a8357f346f4b24f7be02",
+    "revision": "0b56b74d3a788e18e152d0b1fe0d6058",
     "url": "/agabales/index.html"
   },
   {
-    "revision": "77172aa35db7d854f6c8",
+    "revision": "27b997ac05fc42cd0d22",
     "url": "/agabales/static/css/main.b9bcad3f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agabales/static/js/2.76d96d85.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "77172aa35db7d854f6c8",
-    "url": "/agabales/static/js/main.b5917cbd.chunk.js"
+    "revision": "27b997ac05fc42cd0d22",
+    "url": "/agabales/static/js/main.6e1048c4.chunk.js"
   },
   {
     "revision": "605de06c2c570b2ad4bc",
